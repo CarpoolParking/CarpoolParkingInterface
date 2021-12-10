@@ -65,6 +65,7 @@ public class loginPageController {
             HboxLogin.setVisible(false);
             HboxLogin.setManaged(false);
             labelLoggedVisa.setText ("Hello "+globalVisa);
+            buttonLogout.setVisible(true);
         }
     }
 
